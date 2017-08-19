@@ -4,15 +4,12 @@
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `budget` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:budget, "~> 0.1.0"}
-  ]
-end
+```
+mix deps.get
+```
+## Example
+```
+mix run -e "Budget.Conversion.from_euro_to_dollar(15) |> IO.puts"
 ```
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
